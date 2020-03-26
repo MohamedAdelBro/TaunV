@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Wallet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:background="@drawable/shap_for_wallet">
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:id="@+id/mclose_icon"
+                android:src="@drawable/close_icon"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text=" 490.99"
+                    android:textSize="32dp"
+                    android:textColor="@color/white"
+                    android:id="@+id/Wallet_Money"
+                    />
+
+                <RelativeLayout
+                    android:id="@+id/madd_moneyRelative"
+                    android:layout_width="144dp"
+                    android:layout_height="39.49dp"
+                    android:layout_below="@id/w"
+                    android:padding="3dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/add_money_shap">
+
+                    <RelativeLayout
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/circle_whate">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/right_arrow2" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="ADD MONEY"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="wallet history"
+                android:textColor="@color/mainTxtsColor"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            >
+            <TextView
+                android:id="@+id/comp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complete"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/comp1"
+                android:text="ADDED WALLET"
+                android:textColor="#228107"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:id="@+id/mAddwalletTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/comp1"
+                android:text="+₹ 490.99"
+                android:textColor="#228107"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+<!--************************************************************************-->
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="10dp"-->
+<!--            >-->
+<!--            <TextView-->
+<!--                android:id="@+id/mcomp1eteTxt"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Complete"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/mcomp1eteTxt"-->
+<!--                android:text="PAID FOR COOKIES"-->
+<!--                android:textColor="@color/colorPrimary"-->
+<!--                android:textSize="16dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_margin="5dp"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/mpaidwalletTxt"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_below="@id/mcomp1eteTxt"-->
+<!--                android:text="+₹ 490.99"-->
+<!--                android:textColor="@color/colorPrimary"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+<!--        </RelativeLayout>-->
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

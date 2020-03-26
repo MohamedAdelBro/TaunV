@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainColor"
+    tools:context=".Fragments.showServicesFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/MainColor"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/MainColor"
+            android:textStyle="bold"
+
+            android:text="* E_Commerce Grocery App Displays Whatever  grocers type u need"
+            android:textColor="@color/mainTxtsColor"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/MainColor"
+            android:textStyle="bold"
+
+            android:text=" * Our App Allows you easy payment methods to your own selected products"
+            android:textColor="@color/mainTxtsColor"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+
+            android:background="@color/MainColor"
+            android:text="* Displays different details for each product you select with pictures"
+            android:textColor="@color/mainTxtsColor"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+
+            android:background="@color/MainColor"
+            android:text="* Every User Has his own Account to log in to the App any time and enjoy our services forever"
+            android:textColor="@color/mainTxtsColor"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/MainColor"
+            android:text="* And you can find what are u looking for fast and easy using search bar"
+            android:textStyle="bold"
+
+            android:textColor="@color/mainTxtsColor"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/MainColor"
+            android:text="* Receive updates and every thing you are dealing with throw your account as a notification "
+
+            android:textStyle="bold"
+            android:textColor="@color/mainTxtsColor"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+</FrameLayout>

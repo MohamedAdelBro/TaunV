@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6969</color>
+    <color name="colorPrimaryDark">#FF6969</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#fff</color>
+    <color name="hintsColor">#BCBFC4</color>
+    <color name="basic_color">#FF6969</color>
+    <color name="MainColor">#E7E3E3</color>
+    <color name="btnsBasicColor">#FF6969</color>
+    <color name="notifications_color">#FF0303</color>
+    <color name="mainTxtsColor">#515C6F</color>
+    <color name="WalletColor">#C93A72</color>
+    <color name="gradientEndColor">#800000</color>
+    <color name="gradientStartColor">#F50808</color>
+    <color name="black">#000</color>
+    <color name="walletrelativebg">#F79090</color>
+</resources>

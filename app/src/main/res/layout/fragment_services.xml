@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainColor"
+    tools:context=".Fragments.ServicesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:id="@+id/mservicesPageContainer"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:text="Service Start"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:layout_margin="16dp"
+            android:background="@drawable/services_shape"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/mserviceStarttv"/>
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:text="Service Stop"
+            android:textSize="25dp"
+            android:textColor="@color/mainTxtsColor"
+            android:layout_margin="16dp"
+            android:background="@drawable/btn_shape2"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/mserviceStoptv"
+            />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

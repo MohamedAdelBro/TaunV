@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="textAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">24dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:background">#F5F6F8</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+</resources>

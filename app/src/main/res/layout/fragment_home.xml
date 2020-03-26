@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F6F8"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".Fragments.homeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/bar"
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:background="@drawable/bar_home"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:text="@string/app_name"
+                    android:textColor="@color/white"
+                    android:textSize="40dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal">
+
+
+                    <!--                    <RelativeLayout-->
+                    <!--                        android:id="@+id/Navegation"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_alignParentRight="true"-->
+                    <!--                        android:layout_centerInParent="true">-->
+
+                    <!--                        <ImageView-->
+                    <!--                            android:id="@+id/navegation"-->
+                    <!--                            android:layout_width="40dp"-->
+                    <!--                            android:layout_height="30dp"-->
+                    <!--                            android:src="@drawable/chat" />-->
+
+                    <!--                        <TextView-->
+                    <!--                            android:id="@+id/number_chat"-->
+
+                    <!--                            android:layout_width="wrap_content"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_below="@id/navegation"-->
+                    <!--                            android:layout_marginTop="-9dp"-->
+                    <!--                            android:background="@drawable/back_for_number"-->
+                    <!--                            android:gravity="center"-->
+                    <!--                            android:padding="3dp"-->
+                    <!--                            android:text="12"-->
+                    <!--                            android:textColor="#FF0303"-->
+                    <!--                            android:textSize="10dp"-->
+                    <!--                            android:textStyle="bold"-->
+
+                    <!--                            />-->
+                    <!--                    </RelativeLayout>-->
+
+                    <RelativeLayout
+                        android:id="@+id/notification"
+                        android:layout_width="38dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="15dp">
+
+                        <ImageView
+                            android:id="@+id/chat"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/notificatio_icon" />
+
+                        <TextView
+                            android:id="@+id/number_navegation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/chat"
+                            android:layout_marginTop="-9dp"
+                            android:background="@drawable/back_for_number"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:text="12"
+                            android:textColor="#FF0303"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/search_shap"
+                android:drawableLeft="@drawable/search"
+                android:drawablePadding="10dp"
+
+                android:hint="Search"
+                android:inputType="none"
+                android:paddingLeft="20dp"
+                android:textColorHint="#8B8A8A"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+
+        <!--********************************************************************************-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            tools:ignore="MissingConstraints">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/RecHori"
+                android:layout_width="match_parent"
+                android:layout_height="190dp" />
+
+            <LinearLayout
+                android:id="@+id/w"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="For all your "
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/t1"
+                    android:text="family grocery"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+
+                    />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="121dp"
+                android:layout_height="39.49dp"
+                android:layout_below="@id/w"
+                android:layout_margin="20dp"
+                android:background="@drawable/see_more_shap">
+
+                <RelativeLayout
+                    android:layout_width="28.8dp"
+                    android:layout_height="29.62dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/right_arrow" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="See More"
+                    android:textColor="@color/hintsColor"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecVer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "498613404237",
+    "firebase_url": "https://taunv-ebc16.firebaseio.com",
+    "project_id": "taunv-ebc16",
+    "storage_bucket": "taunv-ebc16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498613404237:android:e2f7ff8350547970c81204",
+        "android_client_info": {
+          "package_name": "com.example.tanuv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498613404237-upsladj560adm16a5ovs7qq467ubkkcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxgike0knrBva3OcM9pQ-6Nph5CvuKQak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498613404237-upsladj560adm16a5ovs7qq467ubkkcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
